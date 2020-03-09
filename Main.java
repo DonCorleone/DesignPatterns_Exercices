@@ -1,6 +1,6 @@
 package com.codewithmosh;
 
-import com.codewithmosh.state.*;
+import com.codewithmosh.strategy.*;
 
 public class Main {
 

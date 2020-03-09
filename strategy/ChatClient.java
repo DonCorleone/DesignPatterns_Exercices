@@ -1,20 +1,15 @@
 package com.codewithmosh.strategy;
 
 public class ChatClient {
-    private String encryptionAlgorithm;
 
-    public ChatClient(String encryptionAlgorithm) {
+    private Encryption encryptionAlgorithm;
+
+    public ChatClient(Encryption encryptionAlgorithm) {
         this.encryptionAlgorithm = encryptionAlgorithm;
     }
 
-    public void send(String message) {
-        if (encryptionAlgorithm == "DES")
-            System.out.println("Encrypting message using DES");
-        else if (encryptionAlgorithm == "AES")
-            System.out.println("Encrypting message using AES");
-        else
-            throw new UnsupportedOperationException("Unsupported encryption algorithm");
-
+    public String send(String message) {        
         System.out.println("Sending the encrypted message...");
+        return encryptionAlgorithm.encrypt(message);
     }
 }
