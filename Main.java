@@ -1,6 +1,6 @@
 package com.codewithmosh;
 
-import com.codewithmosh.strategy.*;
+import com.codewithmosh.command.*;
 
 public class Main {
 

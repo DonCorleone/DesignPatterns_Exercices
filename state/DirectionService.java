@@ -17,7 +17,7 @@ public class DirectionService {
         return travelMode.getDirection();
     }
 
-    public TravelMode getTravelMode() {
+    public TravelBase getTravelMode() {
         return travelMode;
     }
 
