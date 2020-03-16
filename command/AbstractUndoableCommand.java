@@ -1,5 +1,8 @@
 package com.codewithmosh.command;
 
+import com.codewithmosh.command.Fx.History;
+import com.codewithmosh.command.Fx.UndoableCommand;
+
 public abstract class AbstractUndoableCommand implements UndoableCommand {
 
     protected History history;

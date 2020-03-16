@@ -1,5 +1,7 @@
 package com.codewithmosh.command;
 
+import com.codewithmosh.command.Fx.History;
+
 public class ContrastCommand extends AbstractUndoableCommand {
 
     private float prevContrast;
