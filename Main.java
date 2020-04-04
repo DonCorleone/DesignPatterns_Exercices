@@ -1,6 +1,6 @@
 package com.codewithmosh;
 
-import com.codewithmosh.command.*;
+import com.codewithmosh.observer.*;
 
 public class Main {
 
