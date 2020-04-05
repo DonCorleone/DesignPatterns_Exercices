@@ -1,6 +1,6 @@
 package com.codewithmosh;
 
-import com.codewithmosh.observer.*;
+import com.codewithmosh.mediator.*;
 
 public class Main {
 
