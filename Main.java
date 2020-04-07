@@ -1,6 +1,6 @@
 package com.codewithmosh;
 
-import com.codewithmosh.mediator.*;
+import com.codewithmosh.chainOfResponsibility.*;
 
 public class Main {
 
